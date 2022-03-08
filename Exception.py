@@ -4,3 +4,6 @@ class GeneralException(Exception):
 
 class GitWrapperException(GeneralException):
     pass 
+
+class DirtyCommitException(GeneralException):
+    pass 
