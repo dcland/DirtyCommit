@@ -1,0 +1,3 @@
+[submodule "linux_kernel_cves"]
+	path = linux_kernel_cves
+	url = https://github.com/nluedtke/linux_kernel_cves.git
