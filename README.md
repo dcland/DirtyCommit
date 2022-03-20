@@ -27,8 +27,10 @@ DirtyCommit is easy to install tool
 ### Install the dependencies.
  
 ```sh
+git clone https://github.com/dcland/DirtyCommit.git
 cd DirtyCommit
 pip install -r requirements.txt
+git clone --recursive --jobs 8 https://github.com/nluedtke/linux_kernel_cves.git
 ```
 
 ### Updateing 
